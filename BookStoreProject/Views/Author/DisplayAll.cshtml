@@ -1,0 +1,63 @@
+﻿
+<style>
+      .getcover{
+            background-size: cover;
+    background-image:url('../../logos/viewbook.jfif');
+    height:100%
+    }
+    .overload{
+        background-color:rgba(0,0,0,0.8);
+        height:100%;
+        width:100%;
+       
+        
+    }
+    .color,footer>p{
+        color:aliceblue;
+    }
+    a:hover{
+        color:gold;
+    }
+     .resize{
+         width: 350px !important  ;
+   }
+</style>
+
+<h2 class="color">Authors</h2>
+@{
+
+    using (BookStoreProject.Models.dbbookstoreEntities db = new BookStoreProject.Models.dbbookstoreEntities())
+    {
+        ViewBag.Authors = db.Authors.ToList();
+    }
+}
+
+
+<div style="overflow:auto;height:65%" class="scrollbar-morpheus-den scrollbar " >
+    <table class="table">
+    <thead class="thead-light">
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (BookStoreProject.Models.Author item in ViewBag.Authors)
+        {
+            <tr>
+
+                <th scope="row"><a href="@Url.Action("EditAuthor","Author",new { id=item.AuthorID})" class="color">@item.AuthorID</a></th>
+                <td><a href="@Url.Action("EditAuthor","Author",new { id=item.AuthorID})" class="color">@item.AuthorName</a></td>
+
+            </tr>
+        }
+
+    </tbody>
+</table>
+</div>
+
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script>
+    $(".nicescroll-box").niceScroll(".wrap", { cursorcolor: "aquamarine" });
+</script>

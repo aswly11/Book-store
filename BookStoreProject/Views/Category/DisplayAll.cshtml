@@ -1,0 +1,73 @@
+﻿
+@{
+    ViewBag.Title = "DisplayAll";
+}
+
+<style>
+    .getcover {
+        background-size: cover;
+        background-image: url('../../logos/viewbook.jfif');
+        height: 100%;
+    }
+
+    .overload {
+        background-color: rgba(0,0,0,0.8);
+        height: 100%;
+        width: 100%;
+    }
+
+    .color, footer > p {
+        color: aliceblue;
+    }
+
+    a:hover {
+        color: gold;
+    }
+
+    .resize {
+        width: 350px !important;
+    }
+</style>
+<h2 class="color">Categories</h2>
+@{
+
+    using (BookStoreProject.Models.dbbookstoreEntities db = new BookStoreProject.Models.dbbookstoreEntities())
+    {
+        ViewBag.categories = db.Categories.ToList();
+    }
+}
+
+
+
+
+<div style="overflow:auto;height:65%" class="scrollbar-morpheus-den scrollbar ">
+    <table class="table">
+        <thead class="thead-light">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Description</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            @{int counter = 0;}
+            @foreach (BookStoreProject.Models.Category item in ViewBag.categories)
+            {
+                counter++;
+                <tr>
+
+                    <th scope="row"><a href="@Url.Action("EditCatgory", "Category", new { id = item.CategoryID })" class="color">@counter</a></th>
+                    <td><a href="@Url.Action("EditCatgory","Category",new { id=item.CategoryID})" class="color">@item.CategoryName</a></td>
+                    <td class="color">@item.CategoryDescription</td>
+
+                </tr>
+            }
+
+        </tbody>
+    </table>
+
+</div>
+<script>
+    $(".do-nicescrol").niceScroll();
+</script>

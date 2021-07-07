@@ -1,0 +1,196 @@
+﻿@model BookStoreProject.Models.Book
+
+@{
+    ViewBag.Title = "Edit";
+}
+<style>
+    input, select, textarea {
+    max-width: 285px;
+    min-width: 262px;
+}
+       .getcover{
+            background-size: cover;
+    background-image: url('../../logos/viewbook.jfif');
+            height: 125%;
+    }   
+         .overload{
+        background-color:rgba(0,0,0,0.8);
+        height:100%;
+        width:100%;
+       
+        
+    }
+          .resize{
+         width: 350px !important  ;
+   }
+         body{
+             height:800px
+         }
+</style>
+@using (BookStoreProject.Models.dbbookstoreEntities b = new BookStoreProject.Models.dbbookstoreEntities())
+{
+
+    var c = b.Categories;
+    List<string> categoriesname = new List<string>();
+    foreach (var i in c)
+    {
+
+
+        categoriesname.Add(i.CategoryName);
+        ViewBag.categoriesname = categoriesname;
+    }
+
+    var Author = b.Authors.ToList();
+
+    List<string> authorsname = new List<string>();
+    foreach (var i in Author)
+    {
+        authorsname.Add(i.AuthorName);
+        ViewBag.authorsname = authorsname;
+    }
+
+
+}
+@using (Html.BeginForm("Edit", "Book", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+<div style="height:800px">
+
+    <h2 style="color:aliceblue">Edit Book</h2><br />
+    <br />
+    <div class="row col-xl-12">
+        <div class="col-xl-8">
+            <div class="col-xl-12">
+               
+
+
+                    <div class="row">
+                        @Html.LabelFor(x => x.BookName, htmlAttributes: new { @class = "control-lable col-md-4", @style = " color:aliceblue" })
+                        <div class="col-md-8">
+                            @Html.EditorFor(x => x.BookName, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(x => x.BookName, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        @Html.LabelFor(x => x.BookDescription, htmlAttributes: new { @class = "control-lable col-md-4", @style = " color:aliceblue" })
+                        <div class="col-md-8">
+                            @Html.EditorFor(x => x.BookDescription, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(x => x.BookDescription, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        @Html.LabelFor(x => x.BookPrice, htmlAttributes: new { @class = "control-lable col-md-4", @style = " color:aliceblue" })
+                        <div class="col-md-8">
+                            @Html.EditorFor(x => x.BookPrice, new { htmlAttributes = new { @class = "form-control" } })
+                            @Html.ValidationMessageFor(x => x.BookPrice, "", new { @class = "text-danger" })
+                        </div>
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-md-4">
+                            @Html.LabelFor(x => x.Category, htmlAttributes: new { @class = "control-lable  ", @style = "width:100%; color:aliceblue" })
+                        </div>
+                        <div class="col-md-8">
+                            @{
+                                SelectList cats = new SelectList(ViewBag.categoriesname);
+                                foreach (var item in cats)
+                                {
+                                    if (item.Text == Model.Category.CategoryName)
+                                    {
+                                        item.Selected = true;
+                                        break;
+                                    }
+                                }
+                            }
+                            @Html.DropDownList("Categories", cats, new { @class = "form-control btn-block" })
+                            @*@Html.ValidationMessageFor(x => x.BookDescription, "", new { @class = "text-danger" })*@
+                        </div>
+
+                    </div>
+                    <br />
+                    <div class="row">
+                        <div class="col-md-4">
+                            @Html.LabelFor(x => x.Author, htmlAttributes: new { @class = "control-lable ", @style = " color:aliceblue" })
+                        </div>
+                        <div class="col-md-8">
+                            @{
+
+                                SelectList authoers = new SelectList(ViewBag.authorsname);
+                                foreach (var item in authoers)
+                                {
+                                    if (item.Text == Model.Author.AuthorName)
+                                    {
+                                        item.Selected = true;
+                                        break;
+                                    }
+                                }
+                            }
+                            @Html.DropDownList("Authors", authoers, new { @class = "form-control" })
+                            @*@Html.ValidationMessageFor(x => x.BookDescription, "", new { @class = "text-danger" })*@
+                        </div>
+
+                    </div>
+
+                    <br />
+                    <div class="row">
+                        <div class="btn btn-primary">
+                            <input name="image" id="image" type="file" value="image" />
+                        </div>
+                        <br />
+                        <br />
+                    </div>
+                    <div class="row ">
+                        <input class="btn btn-block btn-danger" type="submit" value="Save" />
+                    </div>
+                            
+
+            </div>
+        </div>
+
+        <div class="col-xl-4">
+            @{ var base64 = Convert.ToBase64String(Model.BookPicture);
+                var imagesrc = string.Format("data:image/gif;base64,{0}", base64);
+            }
+            <img class="img-responsive" src="@imagesrc" style="width:80%; height:70% ;object-fit:cover;margin-bottom:10px" id="targetimage" />
+            @Html.TextAreaFor(x => x.downloadLink, htmlAttributes: new { @class = "control-lable ", @placeholder = "Download Link", @style = "color :gray " });
+        </div>
+    </div>
+    
+    <div class="clearfix"></div></div>
+                }
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+
+        $("#image").change(function () {
+            var file = this.files;
+
+            if(file && file[0])
+            {
+
+                ReadImage(file[0]);
+            }
+
+        })
+        var ReadImage = function (file)
+        {
+
+            var Reader = new FileReader;
+            var image = new Image;
+            Reader.readAsDataURL(file);
+            Reader.onload = function (_file) {
+                image.src = _file.target.result;
+
+                image.onload = function () {
+
+                    $("#targetimage").attr('src', _file.target.result);
+                }
+            }
+        }
+
+    })
+</script>
+
+

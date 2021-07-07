@@ -1,0 +1,225 @@
+﻿@model BookStoreProject.Models.Book
+
+@{
+    ViewBag.Title = "ViewBook";
+}
+<style>
+    .getcover{
+            background-size: cover;
+    background-image:url('../../logos/viewbook.jfif');
+    height:100%
+    }
+    .overload{
+        background-color:rgba(0,0,0,0.8);
+        height:100%;
+        width:100%;
+       
+        
+    }
+   footer p {
+       color:aliceblue;
+   }
+   .resize{
+         width: 350px !important  ;
+   }
+   
+</style>
+
+    <h2 style="color:aliceblue">View Book</h2>
+    @{ using (BookStoreProject.Models.dbbookstoreEntities b = new BookStoreProject.Models.dbbookstoreEntities())
+        {
+
+            var c = b.Categories;
+
+            foreach (var i in c)
+            {
+                if (Model.CategoryID == i.CategoryID)
+                {
+                    Model.Category = i;
+                }
+            }
+
+            var Author = b.Authors.ToList();
+
+            foreach (var i in Author)
+            {
+                if (Model.AuthorID == i.AuthorID)
+                { Model.Author = i; }
+            }
+
+
+        }
+
+    }
+
+    <br />
+    <br />
+    <div class="row col-md-12 ">
+        <div class="col-md-8">
+            @using (Html.BeginForm("AddNewBook", "Book", FormMethod.Post, new { enctype = "multipart/form-data" }))
+            {
+
+                <div class="row">
+                    @Html.LabelFor(x => x.BookName, htmlAttributes: new { @class = "control-lable col-md-4 " ,@style = " color:aliceblue" })
+                    <div class="col-md-8">
+                        @Html.EditorFor(x => x.BookName, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly", disabled = "disabled" } })
+                        @Html.ValidationMessageFor(x => x.BookName, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+
+                    @Html.LabelFor(x => x.BookDescription, htmlAttributes: new { @class = "control-lable col-md-4 ", @style = " color:aliceblue" })
+                    <div class="col-md-8">
+                        @Html.EditorFor(x => x.BookDescription, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly", disabled = "disabled" } })
+                        @Html.ValidationMessageFor(x => x.BookDescription, "", new { @class = "text-danger" })
+                    </div>
+
+                </div>        <br />
+                <div class="row">
+
+                    @Html.LabelFor(x => x.BookPrice, htmlAttributes: new { @class = "control-lable col-md-4  ", @style = " color:aliceblue" })
+                    <div class="col-md-8">
+                        @Html.EditorFor(x => x.BookPrice, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly", disabled = "disabled" } })
+                        @Html.ValidationMessageFor(x => x.BookPrice, "", new { @class = "text-danger" })
+
+                    </div>
+                </div>
+                <br />
+                <div class="row">
+
+                    <div class="col-md-4">
+                        @Html.LabelFor(x => x.Category, htmlAttributes: new { @class = "control-lable  ", @style = " color:aliceblue" })
+                    </div>
+                    <div class="col-md-8 ">
+                        @Html.EditorFor(x => x.Category.CategoryName, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly", disabled = "disabled" } })
+                    </div>
+
+                </div>
+                    <br />
+                    <div class="row">
+
+
+                        <div class="col-md-4">
+                            @Html.LabelFor(x => x.Author, htmlAttributes: new { @class = "control-lable  ", @style = " color:aliceblue" })
+                        </div>
+                        <div class="col-md-8 ">
+                            @Html.EditorFor(x => x.Author.AuthorName, new { htmlAttributes = new { @class = "form-control", @readonly = "readonly", disabled = "disabled" } })
+                        </div>
+
+                    </div>
+
+                    <br />
+                    <div class="row">
+
+                        <br />
+                        <hr />
+                        <div>
+                            @{
+                                var isadmin = Session["isAdmin"];
+                                if (isadmin == null)
+                                {
+                                    isadmin = false;
+                                }
+                            }
+                            @if ((bool)isadmin == true)
+                            {
+                                <button type="button" class="btn btn-primary" onclick="window.location.href='@Url.Action("Edit","Book",new {id = Model.BookID })'">
+                                    Edit
+                                </button>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                                    Delete
+                                </button>
+
+                            }
+                            else
+                            {
+                                //need to add download link
+                                <button type="button" class="btn btn-primary" onclick="window.location.href='@Model.downloadLink'">
+                                    Download
+                                </button>
+                                using (BookStoreProject.Models.dbbookstoreEntities db = new BookStoreProject.Models.dbbookstoreEntities())
+                                {
+                                    BookStoreProject.Models.Book b = db.Books.Find(Model.BookID);
+                                    b.BookViews = ((int)((int)b.BookViews) + 1);
+                                    db.Entry(b).State = System.Data.Entity.EntityState.Modified;
+                                    db.SaveChanges();
+
+                                }
+
+                            }
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLongTitle">Delete Book</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            Are You Sure of Deleting This Book ?
+                                        </div>
+
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary" onclick="window.location.href='@Url.Action("Delete","Book",new {id = Model.BookID })'">Delete</button>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+                                }
+
+        </div>
+        <div class="col-md-4">
+
+            @{ var base64 = Convert.ToBase64String(Model.BookPicture);
+            var imagesrc = string.Format("data:image/gif;base64,{0}", base64);
+            }
+            <img class="img-responsive" src="@imagesrc" style="width:80%; height:80% ;object-fit:cover" id="targetimage" />
+
+        </div>
+    </div>
+
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script>
+    $(document).ready(function () {
+
+        $("#image").change(function () {
+            var file = this.files;
+
+            if(file && file[0])
+            {
+
+                ReadImage(file[0]);
+            }
+
+        })
+        var ReadImage = function (file)
+        {
+
+            var Reader = new FileReader;
+            var image = new Image;
+            Reader.readAsDataURL(file);
+            Reader.onload = function (_file) {
+                image.src = _file.target.result;
+
+                image.onload = function () {
+
+                    $("#targetimage").attr('src', _file.target.result);
+                }
+            }
+        }
+
+    })
+</script>

@@ -1,0 +1,44 @@
+﻿@model BookStoreProject.Models.Author
+
+@{
+    ViewBag.Title = "EditAuthor";
+}
+<style>
+    .getcover {
+        background-size: cover;
+        background-image: url('../../logos/register.jfif');
+        height: 125%;
+    }
+
+    .color, footer > p {
+        color: aliceblue;
+    }
+</style>
+
+<h2>Edit Author</h2>
+
+<div style="width:100%;height:100%">
+    <div class="col-md-8">
+        @using (Html.BeginForm("EditAuthor", "Author", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+            <br />
+            <div class="row">
+                <h3>
+                    @Html.LabelFor(x => x.AuthorName, htmlAttributes: new { @class = " control-lable col-md-3 color" })
+                </h3>
+                <div class="col-md-8">
+                    @Html.EditorFor(x => x.AuthorName, new { htmlAttributes = new { @class = "form-control" } })
+                    @Html.ValidationMessageFor(x => x.AuthorName, "", new { @class = "text-danger" })
+                </div>
+            </div>
+
+                <br />
+
+                <div class="row ">
+                    <input class="btn  btn-block btn-danger" type="submit" value="Save" />
+                </div>
+        }
+    </div>
+
+</div>
+<div class="clearfix"></div>

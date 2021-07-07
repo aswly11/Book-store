@@ -1,0 +1,415 @@
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\ApplicationInsights.config
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\roslyn\csc.exe
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\roslyn\System.Collections.Immutable.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\roslyn\vbc.exe
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\roslyn\VBCSCompiler.exe
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\roslyn\VBCSCompiler.exe.config
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\BookStoreProject.dll.config
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\BookStoreProject.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\BookStoreProject.pdb
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Antlr3.Runtime.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\EntityFramework.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\EntityFramework.SqlServer.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.AI.Web.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.AI.WindowsServer.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.ApplicationInsights.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.Google.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.Web.Infrastructure.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Newtonsoft.Json.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Owin.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\System.Web.Helpers.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\System.Web.Mvc.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\System.Web.Optimization.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\System.Web.Razor.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\System.Web.WebPages.Deployment.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\System.Web.WebPages.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\System.Web.WebPages.Razor.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\WebGrease.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.AI.Web.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.AI.WindowsServer.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.ApplicationInsights.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\System.Web.Helpers.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\System.Web.Mvc.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\System.Web.Optimization.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\System.Web.Razor.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\System.Web.WebPages.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\System.Web.WebPages.Deployment.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\System.Web.WebPages.Razor.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Antlr3.Runtime.pdb
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Newtonsoft.Json.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\EntityFramework.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\EntityFramework.SqlServer.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.Google.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\obj\Debug\BookStoreProject.csprojResolveAssemblyReference.cache
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\obj\Debug\BookStoreProject.dll
+c:\users\ahmed gamal\documents\visual studio 2015\Projects\BookStoreProject\BookStoreProject\obj\Debug\BookStoreProject.pdb
+E:\projects\BookStoreProject\BookStoreProject\obj\Debug\BookStoreProject.csprojAssemblyReference.cache
+E:\projects\BookStoreProject\BookStoreProject\obj\Debug\BookStoreProject.csproj.CoreCompileInputs.cache
+E:\projects\BookStoreProject\BookStoreProject\obj\Debug\BookStoreProject.dll
+E:\projects\BookStoreProject\BookStoreProject\obj\Debug\BookStoreProject.pdb
+E:\projects\BookStoreProject\BookStoreProject\bin\ApplicationInsights.config
+E:\projects\BookStoreProject\BookStoreProject\bin\roslyn\csc.exe
+E:\projects\BookStoreProject\BookStoreProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\projects\BookStoreProject\BookStoreProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\projects\BookStoreProject\BookStoreProject\bin\roslyn\System.Collections.Immutable.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\roslyn\System.Reflection.Metadata.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\roslyn\vbc.exe
+E:\projects\BookStoreProject\BookStoreProject\bin\roslyn\VBCSCompiler.exe
+E:\projects\BookStoreProject\BookStoreProject\bin\roslyn\VBCSCompiler.exe.config
+E:\projects\BookStoreProject\BookStoreProject\bin\BookStoreProject.dll.config
+E:\projects\BookStoreProject\BookStoreProject\bin\BookStoreProject.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\BookStoreProject.pdb
+E:\projects\BookStoreProject\BookStoreProject\bin\Antlr3.Runtime.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\EntityFramework.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\EntityFramework.SqlServer.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.AI.Agent.Intercept.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.AI.DependencyCollector.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.AI.Web.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.AI.WindowsServer.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.ApplicationInsights.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.AspNet.Identity.Core.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.Cookies.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.Facebook.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.Google.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.OAuth.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.Twitter.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.Web.Infrastructure.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\Newtonsoft.Json.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\Owin.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\System.Web.Helpers.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\System.Web.Mvc.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\System.Web.Optimization.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\System.Web.Razor.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\System.Web.WebPages.Deployment.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\System.Web.WebPages.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\System.Web.WebPages.Razor.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\WebGrease.dll
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.AI.DependencyCollector.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.AI.Web.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.AI.WindowsServer.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.ApplicationInsights.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\System.Web.Helpers.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\System.Web.Mvc.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\System.Web.Optimization.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\System.Web.Razor.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\System.Web.WebPages.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\System.Web.WebPages.Deployment.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\System.Web.WebPages.Razor.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\Antlr3.Runtime.pdb
+E:\projects\BookStoreProject\BookStoreProject\bin\Newtonsoft.Json.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\EntityFramework.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\EntityFramework.SqlServer.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.AspNet.Identity.Core.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.Facebook.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.Cookies.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.OAuth.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.Google.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.Twitter.xml
+E:\projects\BookStoreProject\BookStoreProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\projects\BookStoreProject\BookStoreProject\obj\Debug\BookStoreProject.csproj.CopyComplete
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\roslyn\csc.exe
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\roslyn\vbc.exe
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\BookStoreProject.dll.config
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\BookStoreProject.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\BookStoreProject.pdb
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Antlr3.Runtime.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\EntityFramework.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\EntityFramework.SqlServer.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.AI.Web.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.Owin.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.Owin.Security.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Newtonsoft.Json.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Owin.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\System.Web.Helpers.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\System.Web.Mvc.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\System.Web.Optimization.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\System.Web.Razor.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\System.Web.WebPages.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\WebGrease.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.AI.Web.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\System.Web.Helpers.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\System.Web.Mvc.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\System.Web.Optimization.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\System.Web.Razor.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\System.Web.WebPages.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Antlr3.Runtime.pdb
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Newtonsoft.Json.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\EntityFramework.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.Owin.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.Owin.Security.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\obj\Debug\BookStoreProject.csproj.AssemblyReference.cache
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\obj\Debug\BookStoreProject.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\obj\Debug\BookStoreProject.csproj.CopyComplete
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\obj\Debug\BookStoreProject.dll
+C:\Users\Mohamed Roshdy\Downloads\project\BookStoreProject\obj\Debug\BookStoreProject.pdb
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\roslyn\csc.exe
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\roslyn\vbc.exe
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\BookStoreProject.dll.config
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\BookStoreProject.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\BookStoreProject.pdb
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Antlr3.Runtime.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\EntityFramework.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\EntityFramework.SqlServer.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.AI.Web.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.Owin.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Newtonsoft.Json.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Owin.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\System.Web.Helpers.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\System.Web.Mvc.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\System.Web.Optimization.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\System.Web.Razor.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\System.Web.WebPages.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\WebGrease.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.AI.Web.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\System.Web.Helpers.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\System.Web.Mvc.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\System.Web.Optimization.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\System.Web.Razor.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\System.Web.WebPages.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Antlr3.Runtime.pdb
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Newtonsoft.Json.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\EntityFramework.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.Owin.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\obj\Debug\BookStoreProject.csproj.AssemblyReference.cache
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\obj\Debug\BookStoreProject.csproj.CoreCompileInputs.cache
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\obj\Debug\BookStoreProject.csproj.CopyComplete
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\obj\Debug\BookStoreProject.dll
+C:\Users\Mohamed Roshdy\Desktop\project\BookStoreProject\obj\Debug\BookStoreProject.pdb
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\roslyn\csc.exe
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\roslyn\vbc.exe
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\roslyn\VBCSCompiler.exe
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\BookStoreProject.dll.config
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\BookStoreProject.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\BookStoreProject.pdb
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Antlr3.Runtime.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\EntityFramework.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\EntityFramework.SqlServer.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.AI.Web.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.Owin.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Newtonsoft.Json.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Owin.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\System.Web.Helpers.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\System.Web.Mvc.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\System.Web.Optimization.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\System.Web.Razor.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\System.Web.WebPages.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\System.Web.WebPages.Razor.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\WebGrease.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.AI.Web.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\System.Web.Helpers.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\System.Web.Mvc.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\System.Web.Optimization.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\System.Web.Razor.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\System.Web.WebPages.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\System.Web.WebPages.Razor.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Antlr3.Runtime.pdb
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Newtonsoft.Json.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\EntityFramework.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\EntityFramework.SqlServer.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.Owin.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\obj\Debug\BookStoreProject.csprojAssemblyReference.cache
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\obj\Debug\BookStoreProject.csproj.CoreCompileInputs.cache
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\obj\Debug\BookStoreProject.csproj.CopyComplete
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\obj\Debug\BookStoreProject.dll
+C:\Users\Ahmed Gamal\Desktop\project\BookStoreProject\obj\Debug\BookStoreProject.pdb

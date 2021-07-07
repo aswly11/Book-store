@@ -1,0 +1,306 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <style>
+
+        :root {
+      --primary-color: rgba(13, 110, 139, 0.75);
+      --overlay-color: rgba(24, 39, 51, 0.85);
+      --menu-speed: 0.75s;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0%;
+      padding: 0%;
+    }
+    body {
+      font-family: "Roboto", sans-serif;
+      line-height: 1.4;
+
+    }
+    .container {
+      max-width: 960px;
+      margin: auto;
+      overflow: hidden;
+      padding: 0 3rem;
+    }
+    .showcase {
+      background-color: var(--primary-color);
+      color: #fff;
+      height: 100vh;
+      position: relative;
+    }
+    .showcase:before {
+      content: "";
+      background: url(../img/photo.jpg) no-repeat center center/cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+    }
+    .showcase .showcase-inner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100%;
+    }
+    .showcase h1 {
+      font-size: 4rem;
+    }
+    .showcase p {
+      font-size: 1.3rem;
+    }
+    .btn {
+      display: inline-block;
+      border: none;
+      background-color: var(--primary-color);
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      margin-top: 1rem;
+      text-decoration: none;
+      transition: opacity 1s ease-in;
+    }
+    .btn:hover {
+      opacity: 0.7;
+    }
+
+
+    .menu-wrap {
+      position: fixed;
+         top: 0px;;
+      left: 0;
+      z-index: 1;
+    }
+    .menu-wrap .toggler {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      cursor: pointer;
+      width: 50px;
+      height: 50px;
+      opacity: 0;
+    }
+    .menu-wrap .hamburger {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      width: 60px;
+      height: 60px;
+      padding: 1rem;
+      background: var(--primary-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    /* Hamburger line */
+    .menu-wrap .hamburger > div {
+      position: relative;
+      width: 100%;
+      height: 2px;
+      background-color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.4s ease;
+    }
+
+    /* Top and bottom lines */
+    .menu-wrap .hamburger > div:before,
+    .menu-wrap .hamburger > div:after {
+      content: "";
+      position: absolute;
+      z-index: 1;
+      top: -10px;
+      width: 100%;
+      height: 2px;
+      background: inherit;
+    }
+    /* Moves line down */
+    .menu-wrap .hamburger > div::after {
+      top: 10px;
+    }
+    /* Toggler animate */
+    .menu-wrap .toggler:checked + .hamburger > div {
+      transform: rotate(135deg);
+    }
+    /* Turn lines into X */
+    .menu-wrap .toggler:checked + .hamburger > div:before,
+    .menu-wrap .toggler:checked + .hamburger > div:after {
+      top: 0;
+      transform: rotate(90deg);
+    }
+    /* Rotate on hover when checked */
+    .menu-wrap .toggler:checked:hover + .hamburger > div {
+      transform: rotate(225deg);
+    }
+
+    /* Show menu */
+    .menu-wrap .toggler:checked ~ .menu {
+      visibility: visible;
+    }
+    .menu-wrap .toggler:checked ~ .menu > div {
+      transform: scale(1);
+      transition-duration: var(--menu-speed);
+    }
+    .menu-wrap .toggler:checked ~ .menu > div > div {
+      opacity: 1;
+      transition: opacity 0.4s ease;
+    }
+
+    .menu-wrap .menu {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      visibility: hidden;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    @@media (min-width: 1200px)
+    {.container {
+        max-width: 1302px;
+
+    }}
+    .menu-wrap .menu > div {
+      background: var(--overlay-color);
+      border-radius: 50%;
+      width: 200vw;
+      height: 200vw;
+      display: flex;
+      flex: none;
+      align-items: center;
+      justify-content: center;
+      transform: scale(0);
+      transition: all 0.4s ease;
+    }
+    .menu-wrap .menu > div > div {
+      text-align: center;
+      max-width: 90vw;
+      max-height: 100vh;
+      opacity: 0;
+      transition: opacity 0.4s ease;
+    }
+    .menu-wrap .menu > div > div > ul > li {
+      list-style: none;
+      color: #fff;
+      font-size: 1.5rem;
+      padding: 1rem;
+    }
+    .menu-wrap .menu > div > div > ul > li > a {
+      color: inherit;
+      text-decoration: none;
+      transition: color 0.4s ease;
+    }
+
+
+     @@media (min-width: 1200px)
+      {
+         .container {
+                max-width: 1167px;
+                position: absolute;
+        left: 7%;
+        top: 0px;
+        background-color: #fff;
+    }
+
+     }
+
+          footer>p{
+          color:aliceblue !important;
+      }
+     .linksadmin{
+         font-size:large !important;
+     }
+     @@media (min-width: 1200px)
+  {.container {
+        /* width: 1188px; */
+        min-width: 87% !important;
+    }}  
+    </style>
+    <link href="~/Content/home.css" rel="stylesheet" />
+</head>
+<body style="background-color:#FFF" >
+    @*///////////////*@
+
+    <div class="menu-wrap">
+        <input type="checkbox" class="toggler" />
+        <div class="hamburger"><div></div></div>
+        <div class="menu">
+            <div>
+                <div>
+                    <ul>
+
+                        @{
+
+                            var isAdmin = Session["isAdmin"];
+
+                         }
+                        @if (isAdmin==null) { isAdmin = false; }
+                       
+                        @if ((bool)isAdmin == true)
+                        {
+
+                        <li><a href="/Admin/Home" class="linksadmin">Home </a></li>
+                        <li><a href="/Category/AddNewCatgory" class="linksadmin">Add New Category</a></li>
+                        <li><a href="/Book/AddNewBook" class="linksadmin">Add New Book </a></li>
+                        <li><a href="/Author/AddNewAuthor" class="linksadmin">Add New Author</a></li>
+                        <li><a href="/Category/DisplayAll" class="linksadmin">Edit Category </a></li>
+                        <li><a href="/Author/DisplayAll" class="linksadmin">Edit Author </a></li>
+                        <li><a href="/Admin/AddNewAdmin" class="linksadmin">Add New Admin </a></li>
+                        <li><a href="/Admin/logout" class="linksadmin">Logout</a></li>
+
+                        }
+                        else
+                        {
+                            <li><a href="/Admin/Home" class="linksadmin">Home </a></li>
+                            <li><a href="/Admin/About" class="linksadmin">About</a></li>
+                            <li><a href="/Home/Login" class="linksadmin">Login </a></li>
+                        }
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    @*////////////////*@
+    <div style="overflow:auto">
+        <div class="container body-content getcover scrollbar scrollbar-morpheus-den">
+            <div class="overload body-content">
+                <div class="row">
+                    <div class="col-sm-4 col-xs-2" style="min-height:100px;"></div>
+                    <div class="col-sm-4 col-xs-2" style="min-height:100px;"></div>
+                    <div class="col-sm-4 col-xs-8">
+                        <img class="img-responsive resize" src="~/logos/cooltext331517008987441.png" style="min-height: 90px;min-width: 243px;width: 364px;position: absolute;left: 0;" />
+                    </div> 
+
+                </div>
+                <div class="clearfix"></div>
+                @RenderBody()
+
+                <hr />
+                <footer>
+                    
+                </footer>
+            </div>
+        </div>
+    </div>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Author">
+    <Key>
+      <PropertyRef Name="AuthorID" />
+    </Key>
+    <Property Name="AuthorID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="AuthorName" Type="nvarchar" MaxLength="50" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Book">
+    <Key>
+      <PropertyRef Name="BookID" />
+    </Key>
+    <Property Name="BookID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BookName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="BookPrice" Type="float" Nullable="false" />
+    <Property Name="BookDescription" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="BookPicture" Type="varbinary(max)" Nullable="false" />
+    <Property Name="AuthorID" Type="int" Nullable="false" />
+    <Property Name="CategoryID" Type="int" Nullable="false" />
+    <Property Name="BookViews" Type="int" />
+    <Property Name="downloadLink" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="Category">
+    <Key>
+      <PropertyRef Name="CategoryID" />
+    </Key>
+    <Property Name="CategoryID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CategoryName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CategoryDescription" Type="nvarchar(max)" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="CustomerID" />
+    </Key>
+    <Property Name="CustomerID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerName" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CustomerEmail" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CustomerUsename" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="CustomerPassword" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="isAdmin" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Order">
+    <Key>
+      <PropertyRef Name="OrderID" />
+    </Key>
+    <Property Name="OrderID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CustomerID" Type="int" Nullable="false" />
+    <Property Name="BookID" Type="int" Nullable="false" />
+    <Property Name="Date" Type="date" Nullable="false" />
+    <Property Name="Bill" Type="float" Nullable="false" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <Association Name="FK_Book_Author">
+    <End Role="Author" Type="Self.Author" Multiplicity="1" />
+    <End Role="Book" Type="Self.Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Author">
+        <PropertyRef Name="AuthorID" />
+      </Principal>
+      <Dependent Role="Book">
+        <PropertyRef Name="AuthorID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Book_Category">
+    <End Role="Category" Type="Self.Category" Multiplicity="1" />
+    <End Role="Book" Type="Self.Book" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Category">
+        <PropertyRef Name="CategoryID" />
+      </Principal>
+      <Dependent Role="Book">
+        <PropertyRef Name="CategoryID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Order_Book">
+    <End Role="Book" Type="Self.Book" Multiplicity="1" />
+    <End Role="Order" Type="Self.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Book">
+        <PropertyRef Name="BookID" />
+      </Principal>
+      <Dependent Role="Order">
+        <PropertyRef Name="BookID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Order_Customer">
+    <End Role="Customer" Type="Self.Customer" Multiplicity="1" />
+    <End Role="Order" Type="Self.Order" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Customer">
+        <PropertyRef Name="CustomerID" />
+      </Principal>
+      <Dependent Role="Order">
+        <PropertyRef Name="CustomerID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="Author" EntityType="Self.Author" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Book" EntityType="Self.Book" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Category" EntityType="Self.Category" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Customer" EntityType="Self.Customer" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Order" EntityType="Self.Order" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Book_Author" Association="Self.FK_Book_Author">
+      <End Role="Author" EntitySet="Author" />
+      <End Role="Book" EntitySet="Book" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Book_Category" Association="Self.FK_Book_Category">
+      <End Role="Category" EntitySet="Category" />
+      <End Role="Book" EntitySet="Book" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Order_Book" Association="Self.FK_Order_Book">
+      <End Role="Book" EntitySet="Book" />
+      <End Role="Order" EntitySet="Order" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Order_Customer" Association="Self.FK_Order_Customer">
+      <End Role="Customer" EntitySet="Customer" />
+      <End Role="Order" EntitySet="Order" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
