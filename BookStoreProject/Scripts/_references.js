@@ -1,5 +1,5 @@
-﻿/// <reference path="jquery-3.7.0.js" />
-/// <reference path="modernizr-2.6.2.js" />
+﻿/// <reference path="modernizr-2.6.2.js" />
+/// <reference path="jquery-3.7.0.js" />
 /// <autosync enabled="true" />
 /// <reference path="../bootdtrap old version for carousel/bootstrap.min.js" />
 /// <reference path="../bootdtrap old version for carousel/jquery.min.js" />
